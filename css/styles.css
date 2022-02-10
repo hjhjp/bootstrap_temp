@@ -11796,6 +11796,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   }    
 }
 
+.fade-in {
+  opacity: 0;
+}
+
 .blue-font {
   color: #5899c4;
 }
