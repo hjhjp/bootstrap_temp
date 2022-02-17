@@ -11783,12 +11783,16 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /*추가 css*/
+.carousel-item img.slide_img {
+  height: 1000px;
+}
+
 @media (max-width:991px) {
   #carouselExampleFade {
     padding-top: 72px;
     height: 500px;
   }
-  .slide_img {
+  .carousel-item img.slide_img {
     height: 500px;
   }
   .carousel-control-prev,
