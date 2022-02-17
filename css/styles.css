@@ -6014,7 +6014,8 @@ textarea.form-control-lg {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  transition: transform 0.6s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition-delay: 0.3s;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -6049,7 +6050,10 @@ textarea.form-control-lg {
 .carousel-fade .carousel-item-next.carousel-item-start,
 .carousel-fade .carousel-item-prev.carousel-item-end {
   z-index: 1;
-  opacity: 1;
+  opacity: 1; 
+}
+.carousel-fade .carousel-item.active img.slide_img{
+  transform: scale(1);
 }
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
@@ -11785,8 +11789,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 /*추가 css*/
 .carousel-item img.slide_img {
   height: 1000px;
+  transform: scale(1.1);
+  transition: all .5s;
 }
-
 @media (max-width:991px) {
   #carouselExampleFade {
     padding-top: 72px;
