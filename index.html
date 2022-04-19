@@ -13,6 +13,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!-- gsap -->
@@ -30,7 +31,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#carouselExampleControlsNoTouching">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -48,31 +49,27 @@
         </header>-->
         <!-- slider -->
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <!-- <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div> -->
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="3000">
                 <img src="./assets/img/slide1.png" class="d-block w-100 slide_img" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>데이터와 AI를 통한<br>Digital Transformation</h5>
+                    <p>국방·교육분야 등 데이터 가공 및 최적 AI 개발</p>
                   </div>
               </div>
               <div class="carousel-item" data-bs-interval="3000">
                 <img src="./assets/img/slide2.png" class="d-block w-100 slide_img" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>연구·출판·교육 통한<br>Value UP Partner</h5>
+                    <p>ICT신기술 연구 및 출판·도메인 융합 과정 개발로 교육 선도</p>
                   </div>
               </div>
               <div class="carousel-item">
                 <img src="./assets/img/slide3.png" class="d-block w-100 slide_img" alt="...">
                 <div class="carousel-caption d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
+                    <h5>AI & Block chain</h5>
+                    <p>AI & Block chain 기반의 학습지원 플랫폼 EasybarReview·Certpass 등 솔루션& 개발서비스 플랫폼 
+                      </p>
                   </div>
               </div>
             </div>
@@ -89,135 +86,360 @@
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">사람<em>과</em> 사람<em>을</em> 연결<em>하는</em> 에듀테크<em>기업</em></h2>
+                    <h3 class="section-subheading text-muted">기술 연구와 교육을 통한 고객의 잠재력과 가능성을 이끌어 내는 기업</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4 fade-in">
                         <span class="fa-stack fa-4x">
                             <img src="./assets/img/icon1.png" alt="인공지능">
                         </span>
-                        <h4 class="my-3 blue-font">Artificial Intelligence</h4>
+                        <h4 class="my-3 blue-font">Data 가공, AI 응용개발</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                     <div class="col-md-4 fade-in">
                         <span class="fa-stack fa-4x">
                             <img src="./assets/img/icon2.png" alt="빅데이터">
                         </span>
-                        <h4 class="my-3 blue-font">Big Data</h4>
+                        <h4 class="my-3 blue-font">자격학습지원 솔루션&플랫폼</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                     <div class="col-md-4 fade-in">
                         <span class="fa-stack fa-4x">
                             <img src="./assets/img/icon3.png" alt="IT교육">
                         </span>
-                        <h4 class="my-3 blue-font">IT Education</h4>
+                        <h4 class="my-3 blue-font">도메인 융합 IT Education</h4>
                         <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Project</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- 포트폴리오 첫번째 슬라이드 -->
+                <!-- Portfolio Grid1-->
+                <section class="page-section bg-light carousel" id="portfolio">
+                  <div class="container">
+                    <div class="text-center">
+                      <h2 class="section-heading text-uppercase">Core Competency</h2>
+                      <h3 class="section-subheading text-muted">Data & AI / R&D<br>● ○ ○</h3>
+                    </div>
+                    <div class="row portfolio-row">
+                      <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Threads</div>
-                                <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/1.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">JAVA, Phthon, ETC</div>
+                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Explore</div>
-                                <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/2.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">JAVA, Phthon, ETC</div>
+                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 3-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Finish</div>
-                                <div class="portfolio-caption-subheading text-muted">Identity</div>
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/3.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">JAVA, Phthon, ETC</div>
+                            <div class="portfolio-caption-subheading text-muted">Identity</div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                         <!-- Portfolio item 4-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Lines</div>
-                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/4.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">JAVA, Phthon, ETC</div>
+                            <div class="portfolio-caption-subheading text-muted">Branding</div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
                         <!-- Portfolio item 5-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Southwest</div>
-                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/5.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">JAVA, Phthon, ETC</div>
+                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
                         <!-- Portfolio item 6-->
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                                <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
-                            </a>
-                            <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading">Window</div>
-                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/portfolio/6.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">JAVA, Phthon, ETC</div>
+                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <!-- 포트폴리오 두번째 슬라이드 -->
+                <!-- Portfolio Grid2-->
+                <section class="page-section bg-light carousel" id="portfolio">
+                  <div class="container">
+                    <div class="text-center">
+                      <h2 class="section-heading text-uppercase">Core Competency</h2>
+                      <h3 class="section-subheading text-muted">Education<br>○ ● ○</h3>
+                    </div>
+                    <div class="row portfolio-row">
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/7.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Programming</div>
+                            <div class="portfolio-caption-subheading text-muted">JAVA, Phthon, ETC</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/8.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">인공지능</div>
+                            <div class="portfolio-caption-subheading text-muted">JAVA, Phthon, ETC</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/9.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">빅데이터</div>
+                            <div class="portfolio-caption-subheading text-muted">JAVA, Phthon, ETC</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/10.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">클라우드</div>
+                            <div class="portfolio-caption-subheading text-muted">JAVA, Phthon, ETC</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/11.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">블록체인</div>
+                            <div class="portfolio-caption-subheading text-muted">JAVA, Phthon, ETC</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/12.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">메타버스</div>
+                            <div class="portfolio-caption-subheading text-muted">JAVA, Phthon, ETC</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+              <div class="carousel-item">
+                <!-- 포트폴리오 세번째 슬라이드 -->
+                <!-- Portfolio Grid3-->
+                <section class="page-section bg-light carousel" id="portfolio">
+                  <div class="container">
+                    <div class="text-center">
+                      <h2 class="section-heading text-uppercase">Cooperative Competency</h2>
+                      <h3 class="section-subheading text-muted">Publish & Edu 연계<br>○ ○ ●</h3>
+                    </div>
+                    <div class="row portfolio-row">
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/13.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">오픈소스 프로그래밍</div>
+                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/14.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">AI,데이터과학</div>
+                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/15.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">클라우드 컴퓨팅</div>
+                            <div class="portfolio-caption-subheading text-muted">Identity</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/16.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">웹 프로페셔널</div>
+                            <div class="portfolio-caption-subheading text-muted">Branding</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/17.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">금융 퀀트 융합, 블록체인</div>
+                            <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                          <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/18.png" alt="..." />
+                          </a>
+                          <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Game, Metaverse</div>
+                            <div class="portfolio-caption-subheading text-muted">Photography</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
             </div>
-        </section>
+            <!--버튼자리-->
+          </div>
         <!-- About-->
         <section class="page-section" id="about">
             <div class="container">
